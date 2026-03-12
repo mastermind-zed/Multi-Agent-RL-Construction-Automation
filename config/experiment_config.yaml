@@ -1,0 +1,23 @@
+# Experiment Configuration for Construction MARL
+
+env_config:
+  num_robots: 4
+  render: False
+  time_limit: 1000
+
+marl_config:
+  algorithm: "MAPPO" # Choices: MAPPO, QMIX
+  policy_sharing: True # Centralized vs Decentralized logic
+  
+training_config:
+  num_workers: 2
+  train_batch_size: 4000
+  framework: "torch"
+  lr: 0.0001
+  gamma: 0.99
+
+scenario_details:
+  zones: ["Zone A", "Zone B", "Zone C"]
+  robot_types:
+    agv: 2
+    bricklayer: 2
