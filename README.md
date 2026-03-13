@@ -8,7 +8,7 @@ A Multi-Agent Reinforcement Learning (MARL) framework designed to simulate and o
 
 ## 🏗️ Project Overview
 
-This simulation provides a high-fidelity 2D environment where a fleet of robots must coordinate to haul materials from a central storage area to various construction zones.
+This simulation provides a high-fidelity 2D environment where a fleet of robots must coordinate to haul materials from a central storage area to various construction zones..
 
 ### Key Features
 - **MAPPO Integration**: Uses Ray Rllib for state-of-the-art multi-agent training.
